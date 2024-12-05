@@ -10,7 +10,7 @@
             "type": "cppvsdbg",
             "request": "launch",
             "program": "${workspaceFolder}/build/Debug/${workspaceFolderBasename}.exe",
-            "args": ["test/ouchy_pier_2k.hdr", "test/ouchy_pier_2k.exr"],
+            "args": ["test/ouchy_pier_2k.hdr", "test/ouchy_pier_2k_2.hdr"],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
             "environment": [],
