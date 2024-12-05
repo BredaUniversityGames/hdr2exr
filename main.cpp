@@ -30,18 +30,14 @@ int main(int argc, char *argv[])
         cout << "Error: The input file " << input_file << " is not an HDR image." << std::endl;
         return 1;
     }
-
     
     // Check if the output file is an EXR image
     string output_file = argv[2];
-
-    /* Test with hdr as output for now
     if (output_file.substr(output_file.find_last_of(".") + 1) != "exr")
     {
         cout << "Error: The output file " << output_file << " is not an EXR image." << endl;
         return 1;
     }
-    */
 
     // Create a converter object and process the input image to generate the output image
     converter conv(input_file);    
